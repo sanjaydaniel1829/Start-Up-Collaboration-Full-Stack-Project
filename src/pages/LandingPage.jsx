@@ -1,3 +1,5 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
   UserCircleIcon,
@@ -10,6 +12,8 @@ import {
 import { Link } from 'react-router-dom';
 
 export default function LandingPage() {
+  const navigate = useNavigate();
+
   const features = [
     {
       icon: <UserCircleIcon className="h-6 w-6" />,
@@ -67,7 +71,12 @@ export default function LandingPage() {
               Your ultimate social platform for entrepreneurs to connect, share, and grow together in the startup ecosystem.
             </p>
             <div className="flex gap-4 justify-center">
-              <Link to="/login" className="btn btn-primary">Join Now</Link>
+              <button
+                onClick={() => navigate('/login')}
+                className="btn btn-primary"
+              >
+                Join Now
+              </button>
               <button className="btn bg-white text-gray-800 border border-gray-200 hover:bg-gray-50">
                 Learn More
               </button>
