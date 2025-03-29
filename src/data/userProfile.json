@@ -1,0 +1,16 @@
+{
+  "avatar": "https://example.com/default-avatar.jpg",
+  "name": "John Doe",
+  "username": "johndoe",
+  "location": "New York, USA",
+  "bio": "Web Developer and Tech Enthusiast",
+  "website": "https://johndoe.com",
+  "posts": 123,
+  "followers": 456,
+  "following": 789,
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "twitter": "https://twitter.com/johndoe"
+  }
+}

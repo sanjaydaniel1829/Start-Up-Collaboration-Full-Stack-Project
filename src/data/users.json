@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user1@startupnewbiez.com",
+      "password": "$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "name": "John Doe",
+      "createdAt": "2025-03-29T06:46:05.000Z",
+      "lastLogin": "2025-03-29T06:46:05.000Z"
+    },
+    {
+      "id": "2",
+      "email": "user2@startupnewbiez.com",
+      "password": "$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "name": "Jane Smith",
+      "createdAt": "2025-03-29T06:46:05.000Z",
+      "lastLogin": "2025-03-29T06:46:05.000Z"
+    }
+  ]
+}

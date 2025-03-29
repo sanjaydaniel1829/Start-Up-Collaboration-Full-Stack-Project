@@ -1,0 +1,48 @@
+{
+  "name": "windsurf-ai-landing",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@firebase/app-compat": "^0.2.52",
+    "@firebase/auth": "^1.9.1",
+    "@firebase/auth-compat": "^0.5.19",
+    "@firebase/firestore": "^4.7.10",
+    "@firebase/firestore-compat": "^0.3.45",
+    "@firebase/storage": "^0.13.7",
+    "@firebase/storage-compat": "^0.3.17",
+    "@fontsource/fira-sans": "^5.2.5",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/axios": "^0.9.36",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "framer-motion": "^10.18.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "firebase": "^11.5.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}
