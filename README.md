@@ -1,6 +1,4 @@
-# Windsurf AI Landing Page
-
-A modern, responsive landing page for Windsurf AI - an all-in-one startup ecosystem platform.
+A modern, responsive landing page for Start-Ups - an all-in-one startup ecosystem platform.
 
 ## Features
 
